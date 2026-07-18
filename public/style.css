@@ -1,0 +1,31 @@
+/* style.css */
+:root{
+  --header-h: 64px;
+  --accent: #2a7bd7;
+}
+html,body{height:100%;margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;}
+header{
+  display:flex;
+  flex-direction:column;
+  gap:8px;
+  padding:10px;
+  background:#f7f9fc;
+  border-bottom:1px solid #e0e6ef;
+}
+header h1{margin:0;font-size:18px;}
+.controls{display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+.controls label{font-size:14px;}
+.controls select,input[type="date"]{padding:6px;border-radius:4px;border:1px solid #ccc;}
+.controls button{padding:6px 10px;border-radius:6px;background:var(--accent);color:white;border:none;cursor:pointer}
+
+#map{height:calc(100vh - 130px);width:100%;}
+
+/* Modal */
+.modal{position:fixed;inset:0;display:none;align-items:center;justify-content:center;background:rgba(0,0,0,0.35);z-index:9999}
+.modal[aria-hidden="false"]{display:flex}
+.modal-content{background:white;padding:16px;border-radius:8px;max-width:520px;width:90%;box-shadow:0 6px 20px rgba(0,0,0,0.15);position:relative}
+.modal-close{position:absolute;right:8px;top:8px;border:none;background:transparent;font-size:20px;cursor:pointer}
+.tee-list{margin-top:12px}
+.tee-item{display:flex;justify-content:space-between;align-items:center;padding:8px 0;border-bottom:1px solid #eee}
+.tee-item button{padding:6px 8px;border-radius:6px;border:none;background:#0b8457;color:white;cursor:pointer}
+.small-muted{font-size:13px;color:#666}
