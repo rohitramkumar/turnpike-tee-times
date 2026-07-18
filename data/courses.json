@@ -1,0 +1,26 @@
+[
+  {
+    "id": 22528,
+    "name": "Francis Byrne Golf Course",
+    "city": "East Orange, NJ",
+    "coords": [40.8025, -74.2333],
+    "bookingUrl": "https://foreupsoftware.com/index.php/booking/22528/11078#/teetimes",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 18179,
+    "name": "Old Bridge Golf Club",
+    "city": "Old Bridge / Matawan, NJ",
+    "coords": [40.3990, -74.2603],
+    "bookingUrl": "https://old-bridge-golf-club-v2.book.teeitup.golf/",
+    "teeTimesUrlTemplate": "https://old-bridge-golf-club-v2.book.teeitup.golf/?course=18179&date={date}&max=999999"
+  },
+  {
+    "id": 5697,
+    "name": "Heron Glen Golf Club",
+    "city": "Ringoes, NJ",
+    "coords": [40.4384, -74.8672],
+    "bookingUrl": "https://heron-glen-golf-course.book.teeitup.golf/",
+    "teeTimesUrlTemplate": "https://heron-glen-golf-course.book.teeitup.golf/?course=5697&date={date}&max=999999"
+  }
+]

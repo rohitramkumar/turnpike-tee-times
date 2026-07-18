@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>NJ Tee Times Map</title>
+
+  <!-- Leaflet -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    crossorigin=""/>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>New Jersey Tee Times — Map View</h1>
+    <div class="controls">
+      <label for="countySelect">County:</label>
+      <select id="countySelect">
+        <option value="">-- Select county --</option>
+      </select>
+
+      <label for="dateInput">Date:</label>
+      <input id="dateInput" type="date" />
+      <button id="resetBtn">Reset View</button>
+    </div>
+  </header>
+
+  <main>
+    <div id="map" tabindex="0"></div>
+  </main>
+
+  <!-- Modal for course details / tee times -->
+  <div id="courseModal" class="modal" aria-hidden="true">
+    <div class="modal-content" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" id="modalClose">×</button>
+      <h2 id="modalTitle">Course</h2>
+      <div id="modalBody"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
