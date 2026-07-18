@@ -1,26 +1,1256 @@
 [
   {
-    "id": 22528,
-    "name": "Francis Byrne Golf Course",
-    "city": "East Orange, NJ",
-    "coords": [40.8025, -74.2333],
-    "bookingUrl": "https://foreupsoftware.com/index.php/booking/22528/11078#/teetimes",
+    "id": 1,
+    "name": "Apple Mountain Golf & Country Club",
+    "city": "Belvidere, NJ",
+    "coords": [
+      40.8242,
+      -75.0518
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Apple+Mountain+Golf+%26+Country+Club+Belvidere+NJ",
     "teeTimesUrlTemplate": null
   },
   {
-    "id": 18179,
-    "name": "Old Bridge Golf Club",
-    "city": "Old Bridge / Matawan, NJ",
-    "coords": [40.3990, -74.2603],
-    "bookingUrl": "https://old-bridge-golf-club-v2.book.teeitup.golf/",
-    "teeTimesUrlTemplate": "https://old-bridge-golf-club-v2.book.teeitup.golf/?course=18179&date={date}&max=999999"
+    "id": 2,
+    "name": "Architects Golf Club",
+    "city": "Lopatcong, NJ",
+    "coords": [
+      40.6974,
+      -75.1311
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Architects+Golf+Club+Lopatcong+NJ",
+    "teeTimesUrlTemplate": null
   },
   {
-    "id": 5697,
-    "name": "Heron Glen Golf Club",
+    "id": 3,
+    "name": "Ash Brook Golf Course",
+    "city": "Scotch Plains, NJ",
+    "coords": [
+      40.6277,
+      -74.3643
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Ash+Brook+Golf+Course+Scotch+Plains+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 4,
+    "name": "Ballyowen Golf Club",
+    "city": "Hamburg, NJ",
+    "coords": [
+      41.1444,
+      -74.5601
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Ballyowen+Golf+Club+Hamburg+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 5,
+    "name": "Berkshire Valley Golf Course",
+    "city": "Oak Ridge, NJ",
+    "coords": [
+      41.0536,
+      -74.4722
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Berkshire+Valley+Golf+Course+Oak+Ridge+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 6,
+    "name": "Black Bear Golf Club",
+    "city": "Franklin, NJ",
+    "coords": [
+      41.1392,
+      -74.5772
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Black+Bear+Golf+Club+Franklin+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 7,
+    "name": "Blair Academy Golf Course",
+    "city": "Blairstown, NJ",
+    "coords": [
+      40.9859,
+      -74.962
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Blair+Academy+Golf+Course+Blairstown+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 8,
+    "name": "Bowling Green Golf Club",
+    "city": "Oak Ridge, NJ",
+    "coords": [
+      41.0264,
+      -74.4795
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Bowling+Green+Golf+Club+Oak+Ridge+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 9,
+    "name": "Cascades Golf Course",
+    "city": "Hamburg, NJ",
+    "coords": [
+      41.1578,
+      -74.5456
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Cascades+Golf+Course+Hamburg+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 10,
+    "name": "Crystal Springs Golf Club",
+    "city": "Hamburg, NJ",
+    "coords": [
+      41.1592,
+      -74.5434
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Crystal+Springs+Golf+Club+Hamburg+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 11,
+    "name": "Darlington Golf Course",
+    "city": "Mahwah, NJ",
+    "coords": [
+      41.0664,
+      -74.1953
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Darlington+Golf+Course+Mahwah+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 12,
+    "name": "East Orange Golf Course",
+    "city": "Short Hills, NJ",
+    "coords": [
+      40.7303,
+      -74.34
+    ],
+    "bookingUrl": "https://www.google.com/search?q=East+Orange+Golf+Course+Short+Hills+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 13,
+    "name": "Fairway Valley Golf Club",
+    "city": "Washington, NJ",
+    "coords": [
+      40.7675,
+      -74.9602
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Fairway+Valley+Golf+Club+Washington+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 14,
+    "name": "Farmstead Golf & Country Club",
+    "city": "Lafayette, NJ",
+    "coords": [
+      41.0967,
+      -74.7212
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Farmstead+Golf+%26+Country+Club+Lafayette+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 15,
+    "name": "Flanders Valley Golf Club",
+    "city": "Flanders, NJ",
+    "coords": [
+      40.8443,
+      -74.6934
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Flanders+Valley+Golf+Club+Flanders+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 16,
+    "name": "Francis A. Byrne Golf Course",
+    "city": "West Orange, NJ",
+    "coords": [
+      40.7656,
+      -74.2783
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Francis+A.+Byrne+Golf+Course+West+Orange+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 17,
+    "name": "Galloping Hill Golf Course",
+    "city": "Kenilworth, NJ",
+    "coords": [
+      40.6865,
+      -74.2982
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Galloping+Hill+Golf+Course+Kenilworth+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 18,
+    "name": "Great Gorge Golf Club",
+    "city": "Vernon, NJ",
+    "coords": [
+      41.1918,
+      -74.5126
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Great+Gorge+Golf+Club+Vernon+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 19,
+    "name": "Green Knoll Golf Course",
+    "city": "Bridgewater, NJ",
+    "coords": [
+      40.612,
+      -74.5885
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Green+Knoll+Golf+Course+Bridgewater+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 20,
+    "name": "Green Pond Golf Club",
+    "city": "Rockaway, NJ",
+    "coords": [
+      40.9238,
+      -74.4984
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Green+Pond+Golf+Club+Rockaway+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 21,
+    "name": "Harkers Hollow Golf Club",
+    "city": "Phillipsburg, NJ",
+    "coords": [
+      40.7226,
+      -75.1228
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Harkers+Hollow+Golf+Club+Phillipsburg+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 22,
+    "name": "Hendricks Field Golf Course",
+    "city": "Belleville, NJ",
+    "coords": [
+      40.8015,
+      -74.1685
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Hendricks+Field+Golf+Course+Belleville+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 23,
+    "name": "High Bridge Hills Golf Club",
+    "city": "High Bridge, NJ",
+    "coords": [
+      40.6811,
+      -74.8858
+    ],
+    "bookingUrl": "https://www.google.com/search?q=High+Bridge+Hills+Golf+Club+High+Bridge+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 24,
+    "name": "High Point Golf Club",
+    "city": "Montague, NJ",
+    "coords": [
+      41.2987,
+      -74.7171
+    ],
+    "bookingUrl": "https://www.google.com/search?q=High+Point+Golf+Club+Montague+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 25,
+    "name": "Hyatt Hills Golf Complex",
+    "city": "Clark, NJ",
+    "coords": [
+      40.6279,
+      -74.3073
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Hyatt+Hills+Golf+Complex+Clark+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 26,
+    "name": "Knoll Country Club East",
+    "city": "Boonton / Parsippany, NJ",
+    "coords": [
+      40.8753,
+      -74.3941
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Knoll+Country+Club+East+Boonton+%2F+Parsippany+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 27,
+    "name": "Lake Lackawanna Golf Club",
+    "city": "Stanhope, NJ",
+    "coords": [
+      40.9329,
+      -74.7118
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Lake+Lackawanna+Golf+Club+Stanhope+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 28,
+    "name": "Meadows Golf Club",
+    "city": "Lincoln Park, NJ",
+    "coords": [
+      40.9129,
+      -74.3212
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Meadows+Golf+Club+Lincoln+Park+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 29,
+    "name": "Minerals Golf Club",
+    "city": "Vernon, NJ",
+    "coords": [
+      41.1963,
+      -74.4998
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Minerals+Golf+Club+Vernon+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 30,
+    "name": "Orchard Hills Golf Course",
+    "city": "Paramus, NJ",
+    "coords": [
+      40.9575,
+      -74.0729
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Orchard+Hills+Golf+Course+Paramus+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 31,
+    "name": "Overpeck Golf Course",
+    "city": "Teaneck, NJ",
+    "coords": [
+      40.8624,
+      -74.0049
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Overpeck+Golf+Course+Teaneck+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 32,
+    "name": "Preakness Valley Golf Course",
+    "city": "Wayne, NJ",
+    "coords": [
+      40.9143,
+      -74.2259
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Preakness+Valley+Golf+Course+Wayne+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 33,
+    "name": "Rock Spring Golf Club",
+    "city": "West Orange, NJ",
+    "coords": [
+      40.7679,
+      -74.2654
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Rock+Spring+Golf+Club+West+Orange+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 34,
+    "name": "Rockleigh Golf Course",
+    "city": "Rockleigh, NJ",
+    "coords": [
+      41.0041,
+      -73.9213
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Rockleigh+Golf+Course+Rockleigh+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 35,
+    "name": "SkyView Golf Club",
+    "city": "Sparta, NJ",
+    "coords": [
+      41.0665,
+      -74.619
+    ],
+    "bookingUrl": "https://www.google.com/search?q=SkyView+Golf+Club+Sparta+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 36,
+    "name": "Skyway Golf Course",
+    "city": "Jersey City, NJ",
+    "coords": [
+      40.734,
+      -74.0934
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Skyway+Golf+Course+Jersey+City+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 37,
+    "name": "Sunset Valley Golf Course",
+    "city": "Pompton Plains, NJ",
+    "coords": [
+      40.9754,
+      -74.3259
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Sunset+Valley+Golf+Course+Pompton+Plains+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 38,
+    "name": "Valley Brook Golf Course",
+    "city": "River Vale, NJ",
+    "coords": [
+      41.0118,
+      -74.0125
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Valley+Brook+Golf+Course+River+Vale+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 39,
+    "name": "Weequahic Golf Course",
+    "city": "Newark, NJ",
+    "coords": [
+      40.6976,
+      -74.2057
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Weequahic+Golf+Course+Newark+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 40,
+    "name": "Wild Turkey Golf Club",
+    "city": "Hamburg, NJ",
+    "coords": [
+      41.1557,
+      -74.5492
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Wild+Turkey+Golf+Club+Hamburg+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 41,
+    "name": "Bel-Aire Golf Course",
+    "city": "Wall Township, NJ",
+    "coords": [
+      40.169,
+      -74.0954
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Bel-Aire+Golf+Course+Wall+Township+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 42,
+    "name": "Bey Lea Golf Course",
+    "city": "Toms River, NJ",
+    "coords": [
+      39.9876,
+      -74.1912
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Bey+Lea+Golf+Course+Toms+River+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 43,
+    "name": "Bunker Hill Golf Course",
+    "city": "Princeton, NJ",
+    "coords": [
+      40.4287,
+      -74.5873
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Bunker+Hill+Golf+Course+Princeton+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 44,
+    "name": "Cedar Creek Golf Course",
+    "city": "Bayville, NJ",
+    "coords": [
+      39.8789,
+      -74.1524
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Cedar+Creek+Golf+Course+Bayville+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 45,
+    "name": "Charleston Springs (N/S)",
+    "city": "Millstone, NJ",
+    "coords": [
+      40.2185,
+      -74.3891
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Charleston+Springs+%28N%2FS%29+Millstone+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 46,
+    "name": "Colts Neck Golf Club",
+    "city": "Colts Neck, NJ",
+    "coords": [
+      40.2743,
+      -74.1956
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Colts+Neck+Golf+Club+Colts+Neck+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 47,
+    "name": "Cranbury Golf Club",
+    "city": "West Windsor, NJ",
+    "coords": [
+      40.3235,
+      -74.5684
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Cranbury+Golf+Club+West+Windsor+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 48,
+    "name": "Cream Ridge Golf Club",
+    "city": "Cream Ridge, NJ",
+    "coords": [
+      40.1654,
+      -74.4765
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Cream+Ridge+Golf+Club+Cream+Ridge+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 49,
+    "name": "Eagle Ridge Golf Club",
+    "city": "Lakewood, NJ",
+    "coords": [
+      40.0654,
+      -74.2435
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Eagle+Ridge+Golf+Club+Lakewood+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 50,
+    "name": "Forge Pond Golf Course",
+    "city": "Brick, NJ",
+    "coords": [
+      40.0812,
+      -74.1287
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Forge+Pond+Golf+Course+Brick+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 51,
+    "name": "Gambler Ridge Golf Club",
+    "city": "Cream Ridge, NJ",
+    "coords": [
+      40.1789,
+      -74.5123
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Gambler+Ridge+Golf+Club+Cream+Ridge+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 52,
+    "name": "Heron Glen Golf Course",
     "city": "Ringoes, NJ",
-    "coords": [40.4384, -74.8672],
-    "bookingUrl": "https://heron-glen-golf-course.book.teeitup.golf/",
-    "teeTimesUrlTemplate": "https://heron-glen-golf-course.book.teeitup.golf/?course=5697&date={date}&max=999999"
+    "coords": [
+      40.4712,
+      -74.8456
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Heron+Glen+Golf+Course+Ringoes+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 53,
+    "name": "Hominy Hill Golf Course",
+    "city": "Colts Neck, NJ",
+    "coords": [
+      40.2676,
+      -74.1453
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Hominy+Hill+Golf+Course+Colts+Neck+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 54,
+    "name": "Howell Park Golf Course",
+    "city": "Farmingdale, NJ",
+    "coords": [
+      40.1856,
+      -74.1564
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Howell+Park+Golf+Course+Farmingdale+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 55,
+    "name": "Knob Hill Golf Club",
+    "city": "Manalapan, NJ",
+    "coords": [
+      40.2543,
+      -74.3854
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Knob+Hill+Golf+Club+Manalapan+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 56,
+    "name": "Lakewood Country Club",
+    "city": "Lakewood, NJ",
+    "coords": [
+      40.0987,
+      -74.2234
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Lakewood+Country+Club+Lakewood+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 57,
+    "name": "Mattawang Golf Club",
+    "city": "Belle Mead, NJ",
+    "coords": [
+      40.4632,
+      -74.6298
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Mattawang+Golf+Club+Belle+Mead+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 58,
+    "name": "The Meadows at Middlesex",
+    "city": "Plainsboro, NJ",
+    "coords": [
+      40.3215,
+      -74.5912
+    ],
+    "bookingUrl": "https://www.google.com/search?q=The+Meadows+at+Middlesex+Plainsboro+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 59,
+    "name": "Mercer Oaks (East/West)",
+    "city": "West Windsor, NJ",
+    "coords": [
+      40.2824,
+      -74.6315
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Mercer+Oaks+%28East%2FWest%29+West+Windsor+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 60,
+    "name": "Mountain View Golf Course",
+    "city": "Ewing / West Trenton, NJ",
+    "coords": [
+      40.2654,
+      -74.8198
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Mountain+View+Golf+Course+Ewing+%2F+West+Trenton+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 61,
+    "name": "Neshanic Valley Golf Course",
+    "city": "Neshanic Station, NJ",
+    "coords": [
+      40.5015,
+      -74.6987
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Neshanic+Valley+Golf+Course+Neshanic+Station+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 62,
+    "name": "Ocean Acres Country Club",
+    "city": "Manahawkin, NJ",
+    "coords": [
+      39.7345,
+      -74.2987
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Ocean+Acres+Country+Club+Manahawkin+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 63,
+    "name": "Ocean County GC at Atlantis",
+    "city": "Little Egg Harbor, NJ",
+    "coords": [
+      39.6312,
+      -74.3546
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Ocean+County+GC+at+Atlantis+Little+Egg+Harbor+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 64,
+    "name": "Pebble Creek Golf Club",
+    "city": "Colts Neck, NJ",
+    "coords": [
+      40.2912,
+      -74.2234
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Pebble+Creek+Golf+Club+Colts+Neck+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 65,
+    "name": "Pine Brook Golf Course",
+    "city": "Manalapan, NJ",
+    "coords": [
+      40.2987,
+      -74.3312
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Pine+Brook+Golf+Course+Manalapan+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 66,
+    "name": "Princeton Country Club",
+    "city": "Princeton, NJ",
+    "coords": [
+      40.3123,
+      -74.6456
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Princeton+Country+Club+Princeton+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 67,
+    "name": "Quail Brook Golf Course",
+    "city": "Somerset, NJ",
+    "coords": [
+      40.5212,
+      -74.5245
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Quail+Brook+Golf+Course+Somerset+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 68,
+    "name": "Raritan Landing Golf Course",
+    "city": "Piscataway, NJ",
+    "coords": [
+      40.5143,
+      -74.4567
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Raritan+Landing+Golf+Course+Piscataway+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 69,
+    "name": "Royce Brook GC (East)",
+    "city": "Hillsborough, NJ",
+    "coords": [
+      40.5054,
+      -74.6123
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Royce+Brook+GC+%28East%29+Hillsborough+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 70,
+    "name": "Rutgers University GC",
+    "city": "Piscataway, NJ",
+    "coords": [
+      40.5198,
+      -74.4634
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Rutgers+University+GC+Piscataway+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 71,
+    "name": "Spooky Brook Golf Course",
+    "city": "Somerset, NJ",
+    "coords": [
+      40.5112,
+      -74.5512
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Spooky+Brook+Golf+Course+Somerset+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 72,
+    "name": "Spring Meadow Golf Course",
+    "city": "Farmingdale, NJ",
+    "coords": [
+      40.1743,
+      -74.1212
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Spring+Meadow+Golf+Course+Farmingdale+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 73,
+    "name": "Shark River Golf Course",
+    "city": "Neptune, NJ",
+    "coords": [
+      40.2115,
+      -74.0734
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Shark+River+Golf+Course+Neptune+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 74,
+    "name": "Suneagles Golf Club",
+    "city": "Eatontown, NJ",
+    "coords": [
+      40.3012,
+      -74.0654
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Suneagles+Golf+Club+Eatontown+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 75,
+    "name": "Tamarack Golf Course",
+    "city": "East Brunswick, NJ",
+    "coords": [
+      40.4243,
+      -74.4312
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Tamarack+Golf+Course+East+Brunswick+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 76,
+    "name": "Warren Brook Golf Course",
+    "city": "Warren, NJ",
+    "coords": [
+      40.5912,
+      -74.4987
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Warren+Brook+Golf+Course+Warren+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 77,
+    "name": "William F. Larkin GC",
+    "city": "Ocean Township, NJ",
+    "coords": [
+      40.2398,
+      -74.0412
+    ],
+    "bookingUrl": "https://www.google.com/search?q=William+F.+Larkin+GC+Ocean+Township+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 78,
+    "name": "Atlantic City Country Club",
+    "city": "Northfield, NJ",
+    "coords": [
+      39.3662,
+      -74.5456
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Atlantic+City+Country+Club+Northfield+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 79,
+    "name": "Avalon Golf Club",
+    "city": "Cape May Court House, NJ",
+    "coords": [
+      39.1123,
+      -74.7987
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Avalon+Golf+Club+Cape+May+Court+House+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 80,
+    "name": "Ballamor Golf Club",
+    "city": "Egg Harbor Township, NJ",
+    "coords": [
+      39.4215,
+      -74.6712
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Ballamor+Golf+Club+Egg+Harbor+Township+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 81,
+    "name": "Beckett Golf Club",
+    "city": "Swedesboro, NJ",
+    "coords": [
+      39.7345,
+      -75.3212
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Beckett+Golf+Club+Swedesboro+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 82,
+    "name": "Blue Heron Pines Golf Club",
+    "city": "Galloway Township, NJ",
+    "coords": [
+      39.4987,
+      -74.5712
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Blue+Heron+Pines+Golf+Club+Galloway+Township+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 83,
+    "name": "Brigantine Golf Links",
+    "city": "Brigantine, NJ",
+    "coords": [
+      39.4012,
+      -74.3854
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Brigantine+Golf+Links+Brigantine+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 84,
+    "name": "Buena Vista Country Club",
+    "city": "Buena, NJ",
+    "coords": [
+      39.5212,
+      -74.9123
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Buena+Vista+Country+Club+Buena+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 85,
+    "name": "Cape May National Golf Club",
+    "city": "Cape May, NJ",
+    "coords": [
+      38.9912,
+      -74.9123
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Cape+May+National+Golf+Club+Cape+May+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 86,
+    "name": "Centerton Golf Club",
+    "city": "Elmer, NJ",
+    "coords": [
+      39.5143,
+      -75.1432
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Centerton+Golf+Club+Elmer+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 87,
+    "name": "Deerwood Country Club",
+    "city": "Westampton, NJ",
+    "coords": [
+      40.0212,
+      -74.8234
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Deerwood+Country+Club+Westampton+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 88,
+    "name": "Eastlyn Golf Course",
+    "city": "Vineland, NJ",
+    "coords": [
+      39.4854,
+      -74.9765
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Eastlyn+Golf+Course+Vineland+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 89,
+    "name": "Frog Rock Golf & CC",
+    "city": "Hammonton, NJ",
+    "coords": [
+      39.6123,
+      -74.7854
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Frog+Rock+Golf+%26+CC+Hammonton+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 90,
+    "name": "Golden Pheasant Golf Club",
+    "city": "Medford, NJ",
+    "coords": [
+      39.8912,
+      -74.8123
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Golden+Pheasant+Golf+Club+Medford+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 91,
+    "name": "Greate Bay Golf Club",
+    "city": "Somers Point, NJ",
+    "coords": [
+      39.3154,
+      -74.6123
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Greate+Bay+Golf+Club+Somers+Point+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 92,
+    "name": "Green Tree Golf Course",
+    "city": "Egg Harbor Township, NJ",
+    "coords": [
+      39.3854,
+      -74.6432
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Green+Tree+Golf+Course+Egg+Harbor+Township+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 93,
+    "name": "Harbor Pines Golf Club",
+    "city": "Egg Harbor Township, NJ",
+    "coords": [
+      39.3712,
+      -74.6123
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Harbor+Pines+Golf+Club+Egg+Harbor+Township+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 94,
+    "name": "Indian Spring Golf Club",
+    "city": "Marlton, NJ",
+    "coords": [
+      39.8876,
+      -74.9312
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Indian+Spring+Golf+Club+Marlton+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 95,
+    "name": "Latona Country Club",
+    "city": "Buena, NJ",
+    "coords": [
+      39.5412,
+      -74.9312
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Latona+Country+Club+Buena+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 96,
+    "name": "LBI National Golf & Resort",
+    "city": "Little Egg Harbor, NJ",
+    "coords": [
+      39.6432,
+      -74.3412
+    ],
+    "bookingUrl": "https://www.google.com/search?q=LBI+National+Golf+%26+Resort+Little+Egg+Harbor+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 97,
+    "name": "McCullough\u2019s Emerald Links",
+    "city": "Egg Harbor Township, NJ",
+    "coords": [
+      39.3912,
+      -74.5987
+    ],
+    "bookingUrl": "https://www.google.com/search?q=McCullough%E2%80%99s+Emerald+Links+Egg+Harbor+Township+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 98,
+    "name": "Mays Landing Golf CC",
+    "city": "Mays Landing, NJ",
+    "coords": [
+      39.4212,
+      -74.6987
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Mays+Landing+Golf+CC+Mays+Landing+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 99,
+    "name": "Ocean City Municipal GC",
+    "city": "Ocean City, NJ",
+    "coords": [
+      39.2654,
+      -74.5912
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Ocean+City+Municipal+GC+Ocean+City+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 100,
+    "name": "Pennsauken Country Club",
+    "city": "Pennsauken, NJ",
+    "coords": [
+      39.9654,
+      -75.0212
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Pennsauken+Country+Club+Pennsauken+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 101,
+    "name": "Pines at Clermont Golf Club",
+    "city": "Cape May, NJ",
+    "coords": [
+      39.1654,
+      -74.7543
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Pines+at+Clermont+Golf+Club+Cape+May+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 102,
+    "name": "Pitman Golf Course",
+    "city": "Pitman, NJ",
+    "coords": [
+      39.7212,
+      -75.1432
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Pitman+Golf+Course+Pitman+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 103,
+    "name": "Ramblewood Country Club",
+    "city": "Mount Laurel, NJ",
+    "coords": [
+      39.9123,
+      -74.9567
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Ramblewood+Country+Club+Mount+Laurel+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 104,
+    "name": "Rancocas Golf Club",
+    "city": "Willingboro, NJ",
+    "coords": [
+      40.0123,
+      -74.8912
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Rancocas+Golf+Club+Willingboro+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 105,
+    "name": "RiverWinds Golf & Tennis",
+    "city": "West Deptford, NJ",
+    "coords": [
+      39.8654,
+      -75.1987
+    ],
+    "bookingUrl": "https://www.google.com/search?q=RiverWinds+Golf+%26+Tennis+West+Deptford+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 106,
+    "name": "Running Deer Golf Club",
+    "city": "Pittsgrove, NJ",
+    "coords": [
+      39.5012,
+      -75.0876
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Running+Deer+Golf+Club+Pittsgrove+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 107,
+    "name": "Scotland Run Golf Club",
+    "city": "Williamstown, NJ",
+    "coords": [
+      39.6912,
+      -75.0123
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Scotland+Run+Golf+Club+Williamstown+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 108,
+    "name": "Seaview Resort (Bay/Pines)",
+    "city": "Galloway, NJ",
+    "coords": [
+      39.4478,
+      -74.4532
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Seaview+Resort+%28Bay%2FPines%29+Galloway+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 109,
+    "name": "Shore Gate Golf Club",
+    "city": "Ocean View, NJ",
+    "coords": [
+      39.1854,
+      -74.7312
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Shore+Gate+Golf+Club+Ocean+View+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 110,
+    "name": "Town & Country Golf Links",
+    "city": "Woodstown, NJ",
+    "coords": [
+      39.6432,
+      -75.3123
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Town+%26+Country+Golf+Links+Woodstown+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 111,
+    "name": "Twisted Dune Golf Club",
+    "city": "Egg Harbor Township, NJ",
+    "coords": [
+      39.4123,
+      -74.6123
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Twisted+Dune+Golf+Club+Egg+Harbor+Township+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 112,
+    "name": "Valleybrook Country Club",
+    "city": "Blackwood, NJ",
+    "coords": [
+      39.7912,
+      -75.0432
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Valleybrook+Country+Club+Blackwood+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 113,
+    "name": "Westwood Golf Club",
+    "city": "Woodbury, NJ",
+    "coords": [
+      39.8234,
+      -75.1543
+    ],
+    "bookingUrl": "https://www.google.com/search?q=Westwood+Golf+Club+Woodbury+NJ",
+    "teeTimesUrlTemplate": null
+  },
+  {
+    "id": 114,
+    "name": "White Oaks Country Club",
+    "city": "Newfield, NJ",
+    "coords": [
+      39.5432,
+      -75.0123
+    ],
+    "bookingUrl": "https://www.google.com/search?q=White+Oaks+Country+Club+Newfield+NJ",
+    "teeTimesUrlTemplate": null
   }
 ]

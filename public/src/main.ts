@@ -39,10 +39,7 @@ const map = L.map('map', {
 
 let njBounds: any = null;
 
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-  maxZoom: 18,
-  attribution: '© OpenStreetMap contributors',
-}).addTo(map);
+map.getContainer().style.backgroundColor = '#f7f8fb';
 
 let countiesLayer: any = null;
 let highlightedLayer: any = null;
@@ -76,7 +73,7 @@ async function loadCounties(): Promise<any> {
 loadCounties()
   .then(geojson => {
     countiesLayer = L.geoJSON(geojson, {
-      style: { color: '#444', weight: 1, fillOpacity: 0.05 },
+      style: { color: '#2a7bd7', weight: 1.5, opacity: 0.9, fillOpacity: 0 },
       onEachFeature: (feature: any, layer: any) => {
         const name = getFeatureName(feature);
         layer.bindTooltip(name, { sticky: true });
@@ -89,6 +86,9 @@ loadCounties()
         (layer as any).featureName = name;
       },
     }).addTo(map);
+
+    const outsideMask = createOutsideMask(geojson);
+    outsideMask.addTo(map);
 
     countySelect.addEventListener('change', event => {
       const name = (event.target as HTMLSelectElement).value;
@@ -113,8 +113,8 @@ loadCounties()
     });
 
     njBounds = countiesLayer.getBounds();
-    map.fitBounds(njBounds, { padding: [20, 20] });
-    map.setMaxBounds(njBounds.pad(0.08));
+    map.fitBounds(njBounds, { padding: [10, 10] });
+    map.setMaxBounds(njBounds.pad(0.03));
   })
   .catch(error => {
     console.error(error);
@@ -135,6 +135,36 @@ function getFeatureName(feature: any): string {
   return (
     props.NAME || props.county || props.COUNTY || props.County || props.COUNTY_NAM || 'Unknown'
   );
+}
+
+function createOutsideMask(geojson: any): any {
+  const outer = [[90, -180], [90, 180], [-90, 180], [-90, -180], [90, -180]];
+  const holes: any[] = [];
+
+  geojson.features.forEach((feature: any) => {
+    const geometry = feature.geometry;
+    if (!geometry) return;
+
+    const addRing = (ring: any[]) => {
+      holes.push(ring.map(([lng, lat]: [number, number]) => [lat, lng]));
+    };
+
+    if (geometry.type === 'Polygon') {
+      geometry.coordinates.forEach((ring: any[]) => addRing(ring));
+    } else if (geometry.type === 'MultiPolygon') {
+      geometry.coordinates.forEach((polygon: any[]) => {
+        polygon.forEach((ring: any[]) => addRing(ring));
+      });
+    }
+  });
+
+  return L.polygon([outer, ...holes], {
+    stroke: false,
+    fillColor: '#ffffff',
+    fillOpacity: 1,
+    interactive: false,
+    pane: 'overlayPane',
+  });
 }
 
 function highlightCounty(layer: any): void {
@@ -242,11 +272,19 @@ function extractTimesFromHtml(html: string): TeeTime[] {
 function addCourseMarkers(): void {
   courses.forEach(course => {
     const marker = L.circleMarker(course.coords, {
-      radius: 7,
+      radius: 5,
       color: '#c53',
       fillColor: '#f55',
       fillOpacity: 0.9,
     }).addTo(map);
+
+    marker.bindTooltip(`<strong>${course.name}</strong><br/><span class="small-muted">${course.city}</span>`, {
+      direction: 'top',
+      offset: [0, -10],
+      opacity: 0.95,
+      permanent: false,
+      className: 'course-tooltip',
+    });
 
     marker.bindPopup(`<strong>${course.name}</strong><div class="small-muted">${course.city}</div><div style="margin-top:8px"><button data-id="${course.id}" class="openCourseBtn">View tee times</button></div>`, { minWidth: 180 });
 
